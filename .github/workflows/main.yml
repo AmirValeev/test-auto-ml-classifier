@@ -8,7 +8,7 @@ jobs:
       id: model
       uses: AmirValeev/auto-ml-classifier@v1.0
       with:
-        myInput: "[5.1,3.5,1.4,0.2]"
+        myinput: "[5.1,3.5,1.4,0.2]"
     - name: Upload model.pkl 
       uses: actions/upload-artifact@v2
       with:
